@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/shay1138/Workshop/robo_cv/devel/include/**",
+                "/home/shay1138/robo-rts/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/shay1138/AIM-Vision-InROS/src/armer_detect/include/**",
+                "/home/shay1138/vins-fusion/src/VINS-Fusion/camera_models/include/**",
+                "/home/shay1138/ImageTracker/src/image-tracker/include/**",
+                "/home/shay1138/SolvePnP/src/object-camera-transform/include/**",
+                "/home/shay1138/Workshop/robo_cv/src/RoboRTS/roborts_common/include/**",
+                "/home/shay1138/Workshop/robo_cv/src/RoboRTS/roborts_costmap/include/**",
+                "/home/shay1138/Workshop/EandC/robo-rts-ai/src/track_armor/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/util"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
